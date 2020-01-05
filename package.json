@@ -1,0 +1,39 @@
+{
+  "name": "twitterapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --ignore ./public/uploads index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "author": "Nischal Shakya",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nischalshk/twitter-clone-api.git"
+  },
+  "keywords": [
+    "mongodb",
+    "node",
+    "express",
+    "android"
+  ],
+  "bugs": {
+    "url": "https://github.com/nischalshk/twitter-clone-api/issues"
+  },
+  "homepage": "https://github.com/nischalshk/twitter-clone-api#readme",
+  "description": ""
+}
